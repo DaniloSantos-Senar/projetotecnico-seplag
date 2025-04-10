@@ -8,12 +8,25 @@ Este projeto é uma aplicação Vue.js empacotada em um container Docker. Abaixo
 - Docker Compose
 
 ## Instalação
+
 1. Construa a imagem Docker:
+
    ```
-   docker-compose build
+   docker compose build
    ```
 
 2. Inicie a aplicação:
+
    ```
-   docker-compose up
+   docker compose up
    ```
+
+3. Instale as dependências:
+
+   ```
+   npm install
+   ```
+
+## Uso
+
+A aplicação estará disponível em `http://localhost:8080`.
