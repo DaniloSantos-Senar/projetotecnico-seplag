@@ -9,22 +9,22 @@ Este projeto é uma aplicação Vue.js empacotada em um container Docker. Abaixo
 
 ## Instalação
 
-1. Construa a imagem Docker:
+1. Instale as dependências:
+
+   ```
+   npm install
+   ```
+
+2. Construa a imagem Docker:
 
    ```
    docker compose build
    ```
 
-2. Inicie a aplicação:
+3. Inicie a aplicação:
 
    ```
    docker compose up
-   ```
-
-3. Instale as dependências:
-
-   ```
-   npm install
    ```
 
 ## Uso
